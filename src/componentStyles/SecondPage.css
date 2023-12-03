@@ -1,0 +1,55 @@
+.secondPage{
+    display: grid;
+}
+.secondPageContainer {
+  margin-top: 200px;
+  display: grid;
+  justify-self: center;
+  width: 1200px;
+  gap: 80px;
+}
+.featuresPower {
+  display: grid;
+  justify-items: center;
+  gap: 10px;
+}
+.feature {
+  width: fit-content;
+}
+.featurePara {
+  background-color: #f1f2f4;
+  padding: 12px 24px;
+  border-radius: 100px;
+  color: #2e2e2e;
+  font-weight: 700;
+  font-size: 16px;
+}
+.superPowPara {
+  font-size: 56px;
+  font-weight: 700;
+  color: #2e2e2e;
+}
+.contentContainer{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    grid-column-gap: 11px;
+}
+.contentDiv{
+    width: fit-content;
+    display: grid;
+}
+.secondHeadParaContainer{
+    display: grid;
+    background: red;
+    border: 100px;
+    width: fit-content;
+}
+.secondHeadPara{
+    color: #2e2e2e;
+    font-size: 16px;
+    padding: 12px 24px;
+}
+.feature1Img img{
+    width: 600px;
+}
