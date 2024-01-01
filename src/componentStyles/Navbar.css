@@ -12,6 +12,7 @@
   border-right: none;
   align-items: center;
   position: fixed;
+  z-index: 1;
 }
 .homePageLinks {
   display: grid;
